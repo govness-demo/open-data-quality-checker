@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "co-datos-publicos.open-data-quality-checker"
+name: "Open data quality checker"
+type: "skill"
+version: "1.3.0"
+summary: "Scores a dataset against the national open data quality standard and explains how to fix each gap."
+description: "Checks completeness, metadata, update frequency and format against the national standard, and writes a fix list a publisher can act on."
+publisher:
+  environment: "co-datos-publicos"
+  body: "Agencia de Datos Públicos de Colombia"
+languages: ["es", "en"]
+license: "MIT"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/open-data-quality-checker"
+domains: ["open-data-and-statistics"]
